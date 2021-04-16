@@ -13,3 +13,5 @@ FOR THE APPLICATION
 ## Low Level Design 
 
 ![LOW LEVEL DIAGRAM](https://user-images.githubusercontent.com/65301187/115013233-66cb8e80-9ece-11eb-80f6-f9238cd3d1c5.png)
+
+![LOW LEVEL DIAGRAM](https://user-images.githubusercontent.com/65301187/115013916-4cde7b80-9ecf-11eb-8f88-ab98c8390fe0.png)
