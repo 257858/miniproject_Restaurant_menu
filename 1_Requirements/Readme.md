@@ -22,27 +22,30 @@ Features of this digital menu are:
 ## Defining Our System
 user can navigate through the digital menu by selecting one of the numbers from the options given. Input will be a number. User can even keep the tab on the total amount.
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT Analysis](https://user-images.githubusercontent.com/65301187/114960714-3e6b7200-9e85-11eb-8801-8604abfa2a71.png)
+
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-**TBD**
+For the Restaurants replacing the old way of printed menu to the digital menu which is more dynamic and creative.
 
 ## What:
 
-**TBD**
+Digital menu where the customer can navigate through the menu in the interactive way and place their orders and also track their total bill amount to be paid.
 
 ## When:
 
-**TBD**
+When there are a lot of customers in the restaurant to serve this helps in serving them better as most of the waiters work except serving the food is taken care by this Digital menu.
 
 ## Where:
 
-**TBD**
+For the restaurents which attract the foreign tourist to taste the local and international food since this solution overcomes the language barrier, and the restaurents where customers are fast moving.
 
 ## How:
+
+Since this solution is faster and more effective. 
 
 **TBD**
 
