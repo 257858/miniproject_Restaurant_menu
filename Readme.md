@@ -1,5 +1,6 @@
 # Digital Restaurant Menu
 [![Code Quality - Static Code - Cppcheck](https://github.com/257858/miniproject_Restaurant_menu/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/257858/miniproject_Restaurant_menu/actions/workflows/cppcheck.yml)
+[![Contribution Check - Git Inspector](https://github.com/257858/miniproject_Restaurant_menu/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/257858/miniproject_Restaurant_menu/actions/workflows/gitinspector.yml)
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
