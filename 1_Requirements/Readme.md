@@ -47,14 +47,15 @@ For the restaurents which attract the foreign tourist to taste the local and int
 
 Since this solution is faster and more effective. 
 
-**TBD**
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+---ID | Description | Status |
+------------------------------------------------
+HR01 | Placing the order | Implemented |
+HR02 | Calculating the total | Implemented |
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+---ID | Description | Status (Implemented/Future)
