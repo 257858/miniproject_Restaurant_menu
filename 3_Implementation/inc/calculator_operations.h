@@ -1,47 +1,59 @@
 /** 
-* @file calculator_operations.h
-* Calculator application with 4 mathematical operations
+* @file menu.h
+* Digital Menu which also keeps the tab on the bill
 *
 */
-#ifndef __CALCULATOR_OPERATIONS_H__
-#define __CALCULATOR_OPERATIONS_H__
+#ifndef __MENU_H__
+#define __MENU_H__
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio_ext.h>
 
-/**
-*  adds the operand1 and operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 + operand2
-*/
-int add(int operand1, int operand2);
+GlOBAL int price[10]={150, 150, 80, 150, 200, 200, 150, 30, 40, 50}
 
 /**
-*  subtracts the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 - operand2
-*/
-int subtract(int operand1, int operand2);
+ * @struct has two elements 
+ * 1) no_items- it has the quantity of each of the food items ordered corresponding to items.
+ * 2) bill_amt- has total bill to be paid.
+ */
+
+typedef struct order_details
+{
+    int no_items[10]={0,0,0,0,0,0,0,0,0,0};
+    double bill_amt=0.0;
+}order_details ord;
 
 /**
-*  multiply the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 * operand2
+*  updates the order and bill amount
+* @param[in] structure for the order
+* @param[in] choice of item
+* @return void
 */
-int multiply(int operand1, int operand2);
-
+void order_place(struct order_details ord,int ch);
 
 /**
-* divides the operand1 by operand2 and returns the result 
-* @param[in] operand1 
-* @param[in] operand2 
-* @return integer value of the operand1 / operand2
-* @note returns 0 for divide by 0 error
+*  to print the price of the choosen item or total bill amount
+* @param[in] structure for the order 
+* @param[in] choice of item
+* @return void
 */
-int divide(int operand1, int operand2);
+void print_price(struct order_details ord,int ch);
 
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+/**
+*  prints the main menu
+* @param[in] structure for the order 
+* @return the choice made
+*/
+int print_menu(struct order_details ord);
+
+/**
+*  calculates the price for the new order
+* @param[in] structure for the order 
+* @return calculated amount
+*/
+int calculate(int ch,int num)
+
+#endif  /* #define __MENU_H__ */
+
+
