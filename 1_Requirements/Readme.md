@@ -13,11 +13,14 @@ text and photos. The orders can be quickly sent to the kitchen through a touch s
 ## Cost and Features
 With just inital investment there will be more returns in future. As number of customers increases due to reduced waiting period as the waiters just need to serve food and all other work of the waiter is taken care by the digital menu.
 
-![Description](Link to Pic)
--- Content 
+![Increase in sales](https://user-images.githubusercontent.com/65301187/114958717-3ad5ec00-9e81-11eb-879f-8db40f1e8f0e.jpg)
+
+Features of this digital menu are:
+*   organized menu with price
+*   help customer to keep tab of the total amount
 
 ## Defining Our System
-    -- TBD
+user can navigate through the digital menu by selecting one of the numbers from the options given. Input will be a number. User can even keep the tab on the total amount.
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
