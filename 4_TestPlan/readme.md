@@ -11,6 +11,10 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  L_01       |choosing to place the order|1-10|accepts input|Sucess|Requirement based |
+|  L_02       |choosing to view the bill|0|displays the total bill amount|Requirement based    |
+|  L_03       |placing the order|1|order is updated|Sucess|Requirement based    |
+|  L_04      |inputting the quantity|any integer|no_items is updated|Sucess|Requirement based   |
+|  L_05       |calculating the bill|item_no and quantity|calculaltes the bill|Sucess|Requirement based    |
+
+
