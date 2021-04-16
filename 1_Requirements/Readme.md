@@ -59,8 +59,8 @@ HR02 | Calculating the total | Implemented |
 ##  Low level Requirements:
 ID | Description | HLR ID | Status 
 ----|-------------------------|----|---------------
-LR01 | Choosing between veg and non-veg | HR01 | Implemented |
-LR02 | Choosing one of the options for which type of food | HR01 | Implemented |
+LR01 | Choosing between placing order and total bill | HR01 | Implemented |
+LR02| Choosing one of the options for which type of food | HR01 | Implemented |
 LR03 | placing the order | HR01 | Implemented |
 LR04 | Adding the foods price to the bill everytime an order is placed | HR02 | Implemented |
 LR05 | viewing the total bill | HR02 | Implemented |
