@@ -52,7 +52,7 @@ int print_menu(struct order_details ord);
 * @param[in] structure for the order 
 * @return calculated amount
 */
-int calculate(int ch,int num)
+int calculate(int ch,int num);
 
 #endif  /* #define __MENU_H__ */
 
